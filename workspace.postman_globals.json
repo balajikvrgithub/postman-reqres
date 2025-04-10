@@ -1,0 +1,15 @@
+{
+	"id": "44f3c0df-7703-4e54-8082-dc9c1589d7fa",
+	"values": [
+		{
+			"key": "content-type",
+			"value": "application/json; charset=utf-8",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-04-10T16:36:30.602Z",
+	"_postman_exported_using": "Postman/10.24.27"
+}

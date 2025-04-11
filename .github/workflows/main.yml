@@ -28,7 +28,7 @@ jobs:
         run: |
           newman run ./"Req res API.json" -e "./Test.postman_environment.json" -g "./workspace.postman_globals.json"\
             --reporters cli,htmlextra \
-            --reporter-htmlextra-export ./newman/html-report.html
+            --reporter-htmlextra-export ./html-report.html
 
       - name: Upload HTML report as artifact
         uses: actions/upload-artifact@v3.1.3

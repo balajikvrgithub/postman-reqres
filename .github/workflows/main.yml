@@ -41,3 +41,10 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: postman-html-report
+
+      - name: Archive HTML Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-report
+          path: ./newman
+
